@@ -57,6 +57,33 @@ padding: 2rem;
 perspective: 250rem;
 animation: fadeInRotate 2s ease-in-out forwards;
 }
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 50rem;
+        height: 35rem;
+        padding: 1.5rem;
+        perspective: 200rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 40rem;
+        height: 30rem;
+        padding: 1rem;
+        perspective: 150rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        width: 90%;
+        height: 25rem;
+        padding: 0.5rem;
+        perspective: 100rem;
+    }
+}
+
 @keyframes fadeInRotate {
   0%, 30% {
     opacity: 0;
